@@ -24,13 +24,13 @@ public class Fact {
 
     @Override
     public String toString() {
-        return "Fact{" +
-                "id='" + id + '\'' +
-                ", text='" + text + '\'' +
-                ", type='" + type + '\'' +
-                ", user='" + user + '\'' +
-                ", upvotes=" + upvotes +
-                '}';
+        return "Fact{\n" +
+                "\t id = " + id + "\n" +
+                "\t text = " + text + "\n" +
+                "\t type = " + type + "\n" +
+                "\t user = " + user + "\n" +
+                "\t upvotes = " + upvotes + "\n" +
+                "\t}\n";
     }
 
 
